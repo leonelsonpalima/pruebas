@@ -40,4 +40,13 @@ Route::get('/datatable', function () {
 
 Route::get('/datatable', 'datatable\datatable@index');
 Route::post('/datatable/buscar', 'datatable\datatable@buscar');
+/*
+Route::get('/datatable', 'datatable\datatable@index');
+Route::post('/datatable/buscar', 'datatable\datatable@buscar');
+Route::get('/datatable', 'datatable\datatable@index');
+Route::post('/datatable/buscar', 'datatable\datatable@buscar');
+Route::get('/datatable', 'datatable\datatable@index');
+Route::post('/datatable/buscar', 'datatable\datatable@buscar');
+*/
+
 
